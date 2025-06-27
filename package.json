@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -- watch server.js",
-    "watch": "node .server.js"
+    "start": "node --watch server.js",
+    "watch": "node --watch server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
     "url": "https://github.com/GianniC88/node-hello-world/issues"
   },
   "homepage": "https://github.com/GianniC88/node-hello-world#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.6.0"
+  }
 }
