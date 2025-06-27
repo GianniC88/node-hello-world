@@ -1,4 +1,4 @@
-console.log("hello word 1")
+console.log("hello word lorem Gianni!!!")
 
 require('dotenv').config()
-console.log(process.env) 
+// console.log(process.env) 
